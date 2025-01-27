@@ -148,7 +148,7 @@ h2 {
 }
 
 .advantage-item {
-  min-height: 170px;
+  min-height: 180px;
   display: flex;
   align-items: center;
   gap: 20px;
@@ -200,9 +200,8 @@ h2 {
 }
 
 .faq {
-  width: 100%;
   max-width: 1200px;
-  margin: 50px auto;
+  margin: 50px 20px;
   padding: 20px;
   background-color: #f9f9f9;
   border-radius: 8px;
@@ -421,6 +420,7 @@ textarea {
   }
 
   .faq {
+    width: 100%;
     padding: 10px 20px;
   }
 
