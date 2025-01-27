@@ -24,3 +24,8 @@ document
 
     window.location.href = "thank-you.html";
   });
+
+function scrollToForm() {
+  const formElement = document.getElementById("contactForm");
+  formElement.scrollIntoView({ behavior: "smooth" });
+}
