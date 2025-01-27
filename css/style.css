@@ -215,7 +215,7 @@ h2 {
 
 .faq-item {
   position: relative;
-  margin-bottom: 15px;
+  margin-bottom: 10px;
 }
 
 .faq-question {
@@ -237,17 +237,20 @@ h2 {
   background-color: #f1f1f1;
 }
 
+.faq-item.open {
+  margin-bottom: 10px;
+}
+
 .faq-answer {
   opacity: 0;
   height: 0;
-  padding: 0 15px;
+  padding: 0;
   background-color: #f0f0f0;
   border: 1px solid #ddd;
   border-radius: 5px;
-  margin-top: 10px;
+  margin-top: 0;
   transition: opacity 0.1s ease-in-out, height 0s 0.5s, padding 0.5s ease;
-  position: relative;
-  z-index: 1;
+  overflow: hidden;
 }
 
 .faq-answer p {
@@ -259,12 +262,13 @@ h2 {
   opacity: 1;
   height: auto;
   padding: 15px;
+  margin-top: 10px;
   transition: opacity 0.5s ease-in-out, height 0s 0s, padding 0.3s ease;
 }
 
 .form-container {
   width: 100%;
-  max-width: 1200px;
+  max-width: 1240px;
   margin: 50px auto;
   padding: 20px;
 }
@@ -408,21 +412,34 @@ textarea {
   }
 
   .faq {
-    padding: 15px;
+    padding: 10px 20px;
   }
 
   .faq h2 {
     font-size: 28px;
   }
 
+  .faq-item {
+    position: relative;
+    margin-bottom: 8px;
+  }
+
+  .faq-item.open {
+    margin-bottom: 15px;
+  }
+
   .faq-question {
     font-size: 16px;
-    padding: 12px;
+    padding: 8px;
   }
 
   .faq-answer {
     font-size: 14px;
-    padding: 12px;
+  }
+
+  .form-container {
+    max-width: 100%;
+    padding: 0;
   }
 
   .form-and-image {
@@ -434,14 +451,14 @@ textarea {
   }
 
   .form-section {
-    width: 90%;
+    width: 100%;
     padding: 15px 20px;
     background-color: #f9f9f9;
   }
 
   .image-section {
-    width: 90%;
-    height: 90%;
+    width: 100%;
+    height: 100%;
   }
 
   .footer-content {
