@@ -1,0 +1,19 @@
+.thank-you-container {
+  width: 100%;
+  max-width: 600px;
+  margin: 50px auto;
+  padding: 20px;
+  background-color: #f9f9f9;
+  border-radius: 8px;
+  text-align: center;
+}
+
+h2 {
+  font-size: 28px;
+  color: #000000;
+}
+
+p {
+  font-size: 18px;
+  color: #333;
+}
